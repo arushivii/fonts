@@ -1,41 +1,45 @@
+# Important: This repository is archived and has moved to the [main vocabulary monorepo](https://github.com/creativecommons/vocabulary).
+
+You should clone that repository instead. Note that npm package names have remained the same, only the codebase has moved.
+
+---
+
 <p align="center">
   <a href="https://creativecommons.org/" class="readme-cc-logo">
-    <img 
-      alt="Creative Commons logo" 
-      src="https://raw.githubusercontent.com/creativecommons/fonts/master/readme_assets/cc_logo.png" 
+    <img
+      alt="Creative Commons logo"
+      src="https://raw.githubusercontent.com/creativecommons/fonts/master/readme_assets/cc_logo.png"
       height="62px"/>
   </a>
 </p>
 <p align="center">
   <a href="https://creativecommons.github.io/fonts/" class="readme-fonts-logo">
-    <img 
-      alt="Vocabulary logo" 
-      src="https://raw.githubusercontent.com/creativecommons/fonts/master/readme_assets/fonts_logo.svg?sanitize=true" 
+    <img
+      alt="Fonts logo"
+      src="https://raw.githubusercontent.com/creativecommons/fonts/master/readme_assets/fonts_logo.svg?sanitize=true"
       height="65px"/>
   </a>
 </p>
 
-> Fonts is a collection of typefaces that lend personality to the web facing
-> Creative Commons. Fonts makes it easier to develop Creative Commons apps
-> while ensuring a consistently familiar experience.
+> Fonts is a collection of typefaces for the web facing Creative Commons.
 
 <p align="center">
-  <a 
+  <a
     href="https://github.com/creativecommons/fonts/blob/master/LICENSE"
     style="margin-right: 1em;">
     <img alt="MIT license" src="https://img.shields.io/github/license/creativecommons/fonts.svg?color=brightgreen"/>
   </a>
   <a
-    href="https://circleci.com/gh/creativecommons/fonts/tree/master"
-    style="margin-right: 1em;">
-    <img alt="Circle CI" src="https://circleci.com/gh/creativecommons/fonts/tree/master.svg?style=shield"/>
-  </a>
-  <a
-    href="https://github.com/creativecommons/cc-vocabulary/blob/master/CONTRIBUTING.md"
+    href="https://github.com/creativecommons/fonts/blob/master/CONTRIBUTING.md"
     style="margin-right: 1em;">
     <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
   </a>
-  <a 
+  <a
+    href="https://github.com/creativecommons/fonts/actions"
+    style="margin-right: 1em;">
+    <img alt="GitHub Actions" src="https://img.shields.io/github/workflow/status/creativecommons/fonts/font-ci/master?label=font-ci"/>
+  </a>
+  <a
     href="https://cc-fonts.netlify.com"
     style="margin-right: 1em;">
     <img alt="Netlify" src="https://img.shields.io/netlify/c7f9d312-b3ff-4b28-a032-bc6b937a5603"/>
@@ -47,39 +51,26 @@
   </a>
 </p>
 
-In essence Fonts is a collection of typefaces, each with a distinctively unique
-personality, which when used harmoniously on web sites and web apps make them
-aesthetic, inviting and fun to use.
+Fonts is a collection of the typefaces and icon fonts, each with a distinctively unique
+personality, which are used across CC's web sites and apps.
 
+### Using
+
+To use Fonts in your projects, refer to [this document](https://cc-fonts.netlify.com/?path=/docs/vocabulary-usage--page).
 
 ### Contributing
 
-We're always looking for contributors to help us find and fix bugs, build new 
-features, help us improve the project documentation or translate the project to
-another language.
+To contribute to Fonts, refer to [this document](https://cc-fonts.netlify.com/?path=/docs/vocabulary-contribution--page).
 
-Fonts is continuously evolving and improving. You can contribute to the
-project in a number of ways.
+### Versioning
 
-| What | How |
-|-|-|
-| **Code**      | If you are a developer, feel free to resolve open issues, proof PRs, add new features to existing systems or add new systems altogether. |
-| **Design**    | If you are a designer, your inputs on making every component more intuitive, aesthetic and joyful will reverberate through the entire ecosystem. |
-| **Test**      | If you are a user of these fonts, your feedback, bug reports and feature requests will drive the project forward so that we can meet your needs. |
-| **Translate** | If you speak a language other than, and in addition to, English, you can help make the project accessible to your community with your words. |
-| **Write**     | If you have a knack for writing technical articles, you could be the voice of the library's documentation, making it easy to use and understand. |
-| **Share**     | If you can't contribute in these ways, you can refer the project to a friend who might be able to. Spreading the word is the easiest way to help out. |
-
-If you're interested, read the file `INSTRUCTIONS.md` in the 
-repository for instructions regarding contributing to the project.
-
+Fonts uses [CalVer](https://calver.org/) for version numbering, in the `YYYY.M.Micro` format. `Micro` is bumped whenever there are multiple releases in a month, for example `2020.7.1` is the first release in July 2020, while `2020.7.2` is the second.
 
 ### Disclaimer
 
 This project is still under development and as a consequence of the fact, users
 of the library should be expect to encounter bugs. Feedback and bug reports are
 welcome, fixes and patches even more so.
-
 
 ### License
 
